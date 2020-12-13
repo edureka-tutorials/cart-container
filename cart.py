@@ -15,7 +15,7 @@ app.config['SECRET_KEY'] = 'secret'
 
 #client = MongoClient('cartdb', 27017)
 #db = client.cartDb
-client = pymongo.MongoClient("mongodb://appAdmin:Arka.1992@172.31.27.52:27017/")
+client = pymongo.MongoClient("mongodb://appAdmin:******@172.31.27.52:27017/")
 db = client["cartdb"]
 col = db["cart_items"]
 
